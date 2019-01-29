@@ -13,6 +13,7 @@ public class Admin {
 		users.add(new CompanyUser("Hitachi", "hcc", "helloworld"));
 		
 		for(User u: users) {
+			// Runtime user
 			u.subscriptionPrice(2);
 		}
 	}

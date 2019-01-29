@@ -14,7 +14,7 @@ public class Admin {
 		users.add(new CompanyUser("Hitachi", "hcc", "helloworld"));
 		
 		for(IUser u: users) {
-			// Runtime error 
+			// compilation error
 			u.subscriptionPrice(2);
 		}
 	}
